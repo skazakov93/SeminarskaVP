@@ -81,6 +81,7 @@ namespace SeminarskaVP
         private void NewGame()
         {
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             //dali = false;
             int slikaBr = ran.Next(BROJ_NA_SLIKI) + 1;
             game = new MyGame(slikaBr);
@@ -185,6 +186,7 @@ namespace SeminarskaVP
                     if (pom != null)
                     {
                         pom.Visible = true;
+                        pom.BackColor = Color.CornflowerBlue;
                         pom.ForeColor = Color.CornflowerBlue;
                         
                     }
@@ -297,6 +299,7 @@ namespace SeminarskaVP
                     if (pom != null)
                     {
                         pom.Visible = true;
+                        pom.BackColor = Color.CornflowerBlue;
                         pom.ForeColor = Color.CornflowerBlue;
                     }
                 }
@@ -595,8 +598,12 @@ namespace SeminarskaVP
                             }
                                 
                         }
-                        pom1.Visible = false;
-                        pom2.Visible = false;
+                        //pom1.Visible = false;
+                        //pom2.Visible = false;
+                        pom1.Text = "";
+                        pom2.Text = "";
+                        pom1.BackColor = Color.Transparent;
+                        pom2.BackColor = Color.Transparent;
                         tbp2.ResumeLayout();
                     }
                     else
@@ -608,12 +615,15 @@ namespace SeminarskaVP
                         {
 
                             if (i.Text == randomString)
-                                i.Visible = false;
+                            {
+                                i.Text = "";
+                                i.BackColor = Color.Transparent;
+                            }
                         }
                         tablePanel.ResumeLayout();
                     }
                 }
-                Invalidate(true);
+                //Invalidate(true);
             }
             
         }

@@ -65,52 +65,52 @@
             this.highScoreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.tbp2 = new System.Windows.Forms.TableLayoutPanel();
-            this.lbl36 = new System.Windows.Forms.Label();
-            this.lbl35 = new System.Windows.Forms.Label();
-            this.lbl34 = new System.Windows.Forms.Label();
-            this.lbl33 = new System.Windows.Forms.Label();
-            this.lbl32 = new System.Windows.Forms.Label();
-            this.lbl31 = new System.Windows.Forms.Label();
-            this.lbl30 = new System.Windows.Forms.Label();
-            this.lbl29 = new System.Windows.Forms.Label();
-            this.lbl28 = new System.Windows.Forms.Label();
-            this.lbl27 = new System.Windows.Forms.Label();
-            this.lbl26 = new System.Windows.Forms.Label();
-            this.lbl25 = new System.Windows.Forms.Label();
-            this.lbl24 = new System.Windows.Forms.Label();
-            this.lbl23 = new System.Windows.Forms.Label();
-            this.lbl18 = new System.Windows.Forms.Label();
-            this.lbl17 = new System.Windows.Forms.Label();
-            this.lbl12 = new System.Windows.Forms.Label();
-            this.lbl11 = new System.Windows.Forms.Label();
-            this.lbl6 = new System.Windows.Forms.Label();
-            this.lbl5 = new System.Windows.Forms.Label();
-            this.lbl22 = new System.Windows.Forms.Label();
-            this.lbl21 = new System.Windows.Forms.Label();
-            this.lbl20 = new System.Windows.Forms.Label();
-            this.lbl19 = new System.Windows.Forms.Label();
-            this.lbl16 = new System.Windows.Forms.Label();
-            this.lbl15 = new System.Windows.Forms.Label();
-            this.lbl14 = new System.Windows.Forms.Label();
-            this.lbl13 = new System.Windows.Forms.Label();
-            this.lbl10 = new System.Windows.Forms.Label();
-            this.lbl9 = new System.Windows.Forms.Label();
-            this.lbl8 = new System.Windows.Forms.Label();
-            this.lbl7 = new System.Windows.Forms.Label();
-            this.lbl3 = new System.Windows.Forms.Label();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.lbl4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.lbl7 = new System.Windows.Forms.Label();
+            this.lbl8 = new System.Windows.Forms.Label();
+            this.lbl9 = new System.Windows.Forms.Label();
+            this.lbl10 = new System.Windows.Forms.Label();
+            this.lbl13 = new System.Windows.Forms.Label();
+            this.lbl14 = new System.Windows.Forms.Label();
+            this.lbl15 = new System.Windows.Forms.Label();
+            this.lbl16 = new System.Windows.Forms.Label();
+            this.lbl19 = new System.Windows.Forms.Label();
+            this.lbl20 = new System.Windows.Forms.Label();
+            this.lbl21 = new System.Windows.Forms.Label();
+            this.lbl22 = new System.Windows.Forms.Label();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.lbl6 = new System.Windows.Forms.Label();
+            this.lbl11 = new System.Windows.Forms.Label();
+            this.lbl12 = new System.Windows.Forms.Label();
+            this.lbl17 = new System.Windows.Forms.Label();
+            this.lbl18 = new System.Windows.Forms.Label();
+            this.lbl23 = new System.Windows.Forms.Label();
+            this.lbl24 = new System.Windows.Forms.Label();
+            this.lbl25 = new System.Windows.Forms.Label();
+            this.lbl26 = new System.Windows.Forms.Label();
+            this.lbl27 = new System.Windows.Forms.Label();
+            this.lbl28 = new System.Windows.Forms.Label();
+            this.lbl29 = new System.Windows.Forms.Label();
+            this.lbl30 = new System.Windows.Forms.Label();
+            this.lbl31 = new System.Windows.Forms.Label();
+            this.lbl32 = new System.Windows.Forms.Label();
+            this.lbl33 = new System.Windows.Forms.Label();
+            this.lbl34 = new System.Windows.Forms.Label();
+            this.lbl35 = new System.Windows.Forms.Label();
+            this.lbl36 = new System.Windows.Forms.Label();
+            this.tbp2 = new System.Windows.Forms.TableLayoutPanel();
             this.tablePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            this.tbp2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.statusStrip1.SuspendLayout();
+            this.tbp2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tablePanel
@@ -528,6 +528,514 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(12, 27);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(408, 343);
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 338);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(684, 22);
+            this.statusStrip1.TabIndex = 15;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(115, 17);
+            this.toolStripStatusLabel1.Text = "Неуспешни обиди :";
+            this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
+            // 
+            // lbl4
+            // 
+            this.lbl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl4.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl4.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl4.Location = new System.Drawing.Point(202, 1);
+            this.lbl4.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(66, 55);
+            this.lbl4.TabIndex = 16;
+            this.lbl4.Text = "c";
+            this.lbl4.Click += new System.EventHandler(this.lbl4_Click);
+            // 
+            // lbl1
+            // 
+            this.lbl1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl1.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl1.Location = new System.Drawing.Point(1, 1);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(66, 55);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "c";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
+            // 
+            // lbl2
+            // 
+            this.lbl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl2.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl2.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl2.Location = new System.Drawing.Point(68, 1);
+            this.lbl2.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(66, 55);
+            this.lbl2.TabIndex = 1;
+            this.lbl2.Text = "c";
+            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl2.Click += new System.EventHandler(this.lbl2_Click);
+            // 
+            // lbl3
+            // 
+            this.lbl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl3.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl3.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl3.Location = new System.Drawing.Point(135, 1);
+            this.lbl3.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(66, 55);
+            this.lbl3.TabIndex = 2;
+            this.lbl3.Text = "c";
+            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl3.Click += new System.EventHandler(this.lbl3_Click);
+            // 
+            // lbl7
+            // 
+            this.lbl7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl7.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl7.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl7.Location = new System.Drawing.Point(1, 57);
+            this.lbl7.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl7.Name = "lbl7";
+            this.lbl7.Size = new System.Drawing.Size(66, 55);
+            this.lbl7.TabIndex = 4;
+            this.lbl7.Text = "c";
+            this.lbl7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl7.Click += new System.EventHandler(this.lbl7_Click);
+            // 
+            // lbl8
+            // 
+            this.lbl8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl8.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl8.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl8.Location = new System.Drawing.Point(68, 57);
+            this.lbl8.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl8.Name = "lbl8";
+            this.lbl8.Size = new System.Drawing.Size(66, 55);
+            this.lbl8.TabIndex = 5;
+            this.lbl8.Text = "c";
+            this.lbl8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl8.Click += new System.EventHandler(this.lbl8_Click);
+            // 
+            // lbl9
+            // 
+            this.lbl9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl9.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl9.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl9.Location = new System.Drawing.Point(135, 57);
+            this.lbl9.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl9.Name = "lbl9";
+            this.lbl9.Size = new System.Drawing.Size(66, 55);
+            this.lbl9.TabIndex = 6;
+            this.lbl9.Text = "c";
+            this.lbl9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl9.Click += new System.EventHandler(this.lbl9_Click);
+            // 
+            // lbl10
+            // 
+            this.lbl10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl10.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl10.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl10.Location = new System.Drawing.Point(202, 57);
+            this.lbl10.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl10.Name = "lbl10";
+            this.lbl10.Size = new System.Drawing.Size(66, 55);
+            this.lbl10.TabIndex = 7;
+            this.lbl10.Text = "c";
+            this.lbl10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl10.Click += new System.EventHandler(this.lbl10_Click);
+            // 
+            // lbl13
+            // 
+            this.lbl13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl13.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl13.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl13.Location = new System.Drawing.Point(1, 113);
+            this.lbl13.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl13.Name = "lbl13";
+            this.lbl13.Size = new System.Drawing.Size(66, 55);
+            this.lbl13.TabIndex = 8;
+            this.lbl13.Text = "c";
+            this.lbl13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl13.Click += new System.EventHandler(this.lbl13_Click);
+            // 
+            // lbl14
+            // 
+            this.lbl14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl14.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl14.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl14.Location = new System.Drawing.Point(68, 113);
+            this.lbl14.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl14.Name = "lbl14";
+            this.lbl14.Size = new System.Drawing.Size(66, 55);
+            this.lbl14.TabIndex = 9;
+            this.lbl14.Text = "c";
+            this.lbl14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl14.Click += new System.EventHandler(this.lbl14_Click);
+            // 
+            // lbl15
+            // 
+            this.lbl15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl15.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl15.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl15.Location = new System.Drawing.Point(135, 113);
+            this.lbl15.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl15.Name = "lbl15";
+            this.lbl15.Size = new System.Drawing.Size(66, 55);
+            this.lbl15.TabIndex = 10;
+            this.lbl15.Text = "c";
+            this.lbl15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl15.Click += new System.EventHandler(this.lbl15_Click);
+            // 
+            // lbl16
+            // 
+            this.lbl16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl16.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl16.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl16.Location = new System.Drawing.Point(202, 113);
+            this.lbl16.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl16.Name = "lbl16";
+            this.lbl16.Size = new System.Drawing.Size(66, 55);
+            this.lbl16.TabIndex = 11;
+            this.lbl16.Text = "c";
+            this.lbl16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl16.Click += new System.EventHandler(this.lbl16_Click);
+            // 
+            // lbl19
+            // 
+            this.lbl19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl19.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl19.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl19.Location = new System.Drawing.Point(1, 169);
+            this.lbl19.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl19.Name = "lbl19";
+            this.lbl19.Size = new System.Drawing.Size(66, 55);
+            this.lbl19.TabIndex = 12;
+            this.lbl19.Text = "c";
+            this.lbl19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl19.Click += new System.EventHandler(this.lbl19_Click);
+            // 
+            // lbl20
+            // 
+            this.lbl20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl20.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl20.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl20.Location = new System.Drawing.Point(68, 169);
+            this.lbl20.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl20.Name = "lbl20";
+            this.lbl20.Size = new System.Drawing.Size(66, 55);
+            this.lbl20.TabIndex = 13;
+            this.lbl20.Text = "c";
+            this.lbl20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl20.Click += new System.EventHandler(this.lbl20_Click);
+            // 
+            // lbl21
+            // 
+            this.lbl21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl21.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl21.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl21.Location = new System.Drawing.Point(135, 169);
+            this.lbl21.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl21.Name = "lbl21";
+            this.lbl21.Size = new System.Drawing.Size(66, 55);
+            this.lbl21.TabIndex = 14;
+            this.lbl21.Text = "c";
+            this.lbl21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl21.Click += new System.EventHandler(this.lbl21_Click);
+            // 
+            // lbl22
+            // 
+            this.lbl22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl22.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl22.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl22.Location = new System.Drawing.Point(202, 169);
+            this.lbl22.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl22.Name = "lbl22";
+            this.lbl22.Size = new System.Drawing.Size(66, 55);
+            this.lbl22.TabIndex = 15;
+            this.lbl22.Text = "c";
+            this.lbl22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl22.Click += new System.EventHandler(this.lbl22_Click);
+            // 
+            // lbl5
+            // 
+            this.lbl5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl5.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl5.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl5.Location = new System.Drawing.Point(269, 1);
+            this.lbl5.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(66, 55);
+            this.lbl5.TabIndex = 43;
+            this.lbl5.Text = "c";
+            this.lbl5.Click += new System.EventHandler(this.lbl5_Click);
+            // 
+            // lbl6
+            // 
+            this.lbl6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl6.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl6.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl6.Location = new System.Drawing.Point(336, 1);
+            this.lbl6.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(71, 55);
+            this.lbl6.TabIndex = 44;
+            this.lbl6.Text = "c";
+            this.lbl6.Click += new System.EventHandler(this.lbl6_Click);
+            // 
+            // lbl11
+            // 
+            this.lbl11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl11.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl11.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl11.Location = new System.Drawing.Point(269, 57);
+            this.lbl11.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl11.Name = "lbl11";
+            this.lbl11.Size = new System.Drawing.Size(66, 55);
+            this.lbl11.TabIndex = 45;
+            this.lbl11.Text = "c";
+            this.lbl11.Click += new System.EventHandler(this.lbl11_Click);
+            // 
+            // lbl12
+            // 
+            this.lbl12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl12.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl12.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl12.Location = new System.Drawing.Point(336, 57);
+            this.lbl12.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl12.Name = "lbl12";
+            this.lbl12.Size = new System.Drawing.Size(71, 55);
+            this.lbl12.TabIndex = 46;
+            this.lbl12.Text = "c";
+            this.lbl12.Click += new System.EventHandler(this.lbl12_Click);
+            // 
+            // lbl17
+            // 
+            this.lbl17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl17.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl17.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl17.Location = new System.Drawing.Point(269, 113);
+            this.lbl17.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl17.Name = "lbl17";
+            this.lbl17.Size = new System.Drawing.Size(66, 55);
+            this.lbl17.TabIndex = 47;
+            this.lbl17.Text = "c";
+            this.lbl17.Click += new System.EventHandler(this.lbl17_Click);
+            // 
+            // lbl18
+            // 
+            this.lbl18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl18.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl18.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl18.Location = new System.Drawing.Point(336, 113);
+            this.lbl18.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl18.Name = "lbl18";
+            this.lbl18.Size = new System.Drawing.Size(71, 55);
+            this.lbl18.TabIndex = 48;
+            this.lbl18.Text = "c";
+            this.lbl18.Click += new System.EventHandler(this.lbl18_Click);
+            // 
+            // lbl23
+            // 
+            this.lbl23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl23.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl23.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl23.Location = new System.Drawing.Point(269, 169);
+            this.lbl23.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl23.Name = "lbl23";
+            this.lbl23.Size = new System.Drawing.Size(66, 55);
+            this.lbl23.TabIndex = 49;
+            this.lbl23.Text = "c";
+            this.lbl23.Click += new System.EventHandler(this.lbl23_Click);
+            // 
+            // lbl24
+            // 
+            this.lbl24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl24.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl24.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl24.Location = new System.Drawing.Point(336, 169);
+            this.lbl24.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl24.Name = "lbl24";
+            this.lbl24.Size = new System.Drawing.Size(71, 55);
+            this.lbl24.TabIndex = 50;
+            this.lbl24.Text = "c";
+            this.lbl24.Click += new System.EventHandler(this.lbl24_Click);
+            // 
+            // lbl25
+            // 
+            this.lbl25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl25.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl25.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl25.Location = new System.Drawing.Point(1, 225);
+            this.lbl25.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl25.Name = "lbl25";
+            this.lbl25.Size = new System.Drawing.Size(66, 55);
+            this.lbl25.TabIndex = 51;
+            this.lbl25.Text = "c";
+            this.lbl25.Click += new System.EventHandler(this.lbl25_Click);
+            // 
+            // lbl26
+            // 
+            this.lbl26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl26.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl26.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl26.Location = new System.Drawing.Point(68, 225);
+            this.lbl26.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl26.Name = "lbl26";
+            this.lbl26.Size = new System.Drawing.Size(66, 55);
+            this.lbl26.TabIndex = 52;
+            this.lbl26.Text = "c";
+            this.lbl26.Click += new System.EventHandler(this.lbl26_Click);
+            // 
+            // lbl27
+            // 
+            this.lbl27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl27.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl27.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl27.Location = new System.Drawing.Point(135, 225);
+            this.lbl27.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl27.Name = "lbl27";
+            this.lbl27.Size = new System.Drawing.Size(66, 55);
+            this.lbl27.TabIndex = 53;
+            this.lbl27.Text = "c";
+            this.lbl27.Click += new System.EventHandler(this.lbl27_Click);
+            // 
+            // lbl28
+            // 
+            this.lbl28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl28.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl28.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl28.Location = new System.Drawing.Point(202, 225);
+            this.lbl28.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl28.Name = "lbl28";
+            this.lbl28.Size = new System.Drawing.Size(66, 55);
+            this.lbl28.TabIndex = 54;
+            this.lbl28.Text = "c";
+            this.lbl28.Click += new System.EventHandler(this.lbl28_Click);
+            // 
+            // lbl29
+            // 
+            this.lbl29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl29.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl29.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl29.Location = new System.Drawing.Point(269, 225);
+            this.lbl29.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl29.Name = "lbl29";
+            this.lbl29.Size = new System.Drawing.Size(66, 55);
+            this.lbl29.TabIndex = 55;
+            this.lbl29.Text = "c";
+            this.lbl29.Click += new System.EventHandler(this.lbl29_Click);
+            // 
+            // lbl30
+            // 
+            this.lbl30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl30.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl30.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl30.Location = new System.Drawing.Point(336, 225);
+            this.lbl30.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl30.Name = "lbl30";
+            this.lbl30.Size = new System.Drawing.Size(71, 55);
+            this.lbl30.TabIndex = 56;
+            this.lbl30.Text = "c";
+            this.lbl30.Click += new System.EventHandler(this.lbl30_Click);
+            // 
+            // lbl31
+            // 
+            this.lbl31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl31.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl31.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl31.Location = new System.Drawing.Point(1, 281);
+            this.lbl31.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl31.Name = "lbl31";
+            this.lbl31.Size = new System.Drawing.Size(66, 61);
+            this.lbl31.TabIndex = 57;
+            this.lbl31.Text = "c";
+            this.lbl31.Click += new System.EventHandler(this.lbl31_Click);
+            // 
+            // lbl32
+            // 
+            this.lbl32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl32.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl32.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl32.Location = new System.Drawing.Point(68, 281);
+            this.lbl32.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl32.Name = "lbl32";
+            this.lbl32.Size = new System.Drawing.Size(66, 61);
+            this.lbl32.TabIndex = 58;
+            this.lbl32.Text = "c";
+            this.lbl32.Click += new System.EventHandler(this.lbl32_Click);
+            // 
+            // lbl33
+            // 
+            this.lbl33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl33.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl33.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl33.Location = new System.Drawing.Point(135, 281);
+            this.lbl33.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl33.Name = "lbl33";
+            this.lbl33.Size = new System.Drawing.Size(66, 61);
+            this.lbl33.TabIndex = 59;
+            this.lbl33.Text = "c";
+            this.lbl33.Click += new System.EventHandler(this.lbl33_Click);
+            // 
+            // lbl34
+            // 
+            this.lbl34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl34.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl34.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl34.Location = new System.Drawing.Point(202, 281);
+            this.lbl34.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl34.Name = "lbl34";
+            this.lbl34.Size = new System.Drawing.Size(66, 61);
+            this.lbl34.TabIndex = 60;
+            this.lbl34.Text = "c";
+            this.lbl34.Click += new System.EventHandler(this.lbl34_Click);
+            // 
+            // lbl35
+            // 
+            this.lbl35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl35.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl35.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl35.Location = new System.Drawing.Point(269, 281);
+            this.lbl35.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl35.Name = "lbl35";
+            this.lbl35.Size = new System.Drawing.Size(66, 61);
+            this.lbl35.TabIndex = 61;
+            this.lbl35.Text = "c";
+            this.lbl35.Click += new System.EventHandler(this.lbl35_Click);
+            // 
+            // lbl36
+            // 
+            this.lbl36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl36.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.lbl36.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.lbl36.Location = new System.Drawing.Point(336, 281);
+            this.lbl36.Margin = new System.Windows.Forms.Padding(0);
+            this.lbl36.Name = "lbl36";
+            this.lbl36.Size = new System.Drawing.Size(71, 61);
+            this.lbl36.TabIndex = 62;
+            this.lbl36.Text = "c";
+            this.lbl36.Click += new System.EventHandler(this.lbl36_Click);
+            // 
             // tbp2
             // 
             this.tbp2.AccessibleName = "tbp2";
@@ -591,514 +1099,6 @@
             this.tbp2.Size = new System.Drawing.Size(408, 343);
             this.tbp2.TabIndex = 13;
             // 
-            // lbl36
-            // 
-            this.lbl36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl36.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl36.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl36.Location = new System.Drawing.Point(336, 281);
-            this.lbl36.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl36.Name = "lbl36";
-            this.lbl36.Size = new System.Drawing.Size(71, 61);
-            this.lbl36.TabIndex = 62;
-            this.lbl36.Text = "c";
-            this.lbl36.Click += new System.EventHandler(this.lbl36_Click);
-            // 
-            // lbl35
-            // 
-            this.lbl35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl35.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl35.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl35.Location = new System.Drawing.Point(269, 281);
-            this.lbl35.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl35.Name = "lbl35";
-            this.lbl35.Size = new System.Drawing.Size(66, 61);
-            this.lbl35.TabIndex = 61;
-            this.lbl35.Text = "c";
-            this.lbl35.Click += new System.EventHandler(this.lbl35_Click);
-            // 
-            // lbl34
-            // 
-            this.lbl34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl34.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl34.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl34.Location = new System.Drawing.Point(202, 281);
-            this.lbl34.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl34.Name = "lbl34";
-            this.lbl34.Size = new System.Drawing.Size(66, 61);
-            this.lbl34.TabIndex = 60;
-            this.lbl34.Text = "c";
-            this.lbl34.Click += new System.EventHandler(this.lbl34_Click);
-            // 
-            // lbl33
-            // 
-            this.lbl33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl33.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl33.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl33.Location = new System.Drawing.Point(135, 281);
-            this.lbl33.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl33.Name = "lbl33";
-            this.lbl33.Size = new System.Drawing.Size(66, 61);
-            this.lbl33.TabIndex = 59;
-            this.lbl33.Text = "c";
-            this.lbl33.Click += new System.EventHandler(this.lbl33_Click);
-            // 
-            // lbl32
-            // 
-            this.lbl32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl32.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl32.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl32.Location = new System.Drawing.Point(68, 281);
-            this.lbl32.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl32.Name = "lbl32";
-            this.lbl32.Size = new System.Drawing.Size(66, 61);
-            this.lbl32.TabIndex = 58;
-            this.lbl32.Text = "c";
-            this.lbl32.Click += new System.EventHandler(this.lbl32_Click);
-            // 
-            // lbl31
-            // 
-            this.lbl31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl31.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl31.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl31.Location = new System.Drawing.Point(1, 281);
-            this.lbl31.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl31.Name = "lbl31";
-            this.lbl31.Size = new System.Drawing.Size(66, 61);
-            this.lbl31.TabIndex = 57;
-            this.lbl31.Text = "c";
-            this.lbl31.Click += new System.EventHandler(this.lbl31_Click);
-            // 
-            // lbl30
-            // 
-            this.lbl30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl30.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl30.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl30.Location = new System.Drawing.Point(336, 225);
-            this.lbl30.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl30.Name = "lbl30";
-            this.lbl30.Size = new System.Drawing.Size(71, 55);
-            this.lbl30.TabIndex = 56;
-            this.lbl30.Text = "c";
-            this.lbl30.Click += new System.EventHandler(this.lbl30_Click);
-            // 
-            // lbl29
-            // 
-            this.lbl29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl29.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl29.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl29.Location = new System.Drawing.Point(269, 225);
-            this.lbl29.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl29.Name = "lbl29";
-            this.lbl29.Size = new System.Drawing.Size(66, 55);
-            this.lbl29.TabIndex = 55;
-            this.lbl29.Text = "c";
-            this.lbl29.Click += new System.EventHandler(this.lbl29_Click);
-            // 
-            // lbl28
-            // 
-            this.lbl28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl28.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl28.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl28.Location = new System.Drawing.Point(202, 225);
-            this.lbl28.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl28.Name = "lbl28";
-            this.lbl28.Size = new System.Drawing.Size(66, 55);
-            this.lbl28.TabIndex = 54;
-            this.lbl28.Text = "c";
-            this.lbl28.Click += new System.EventHandler(this.lbl28_Click);
-            // 
-            // lbl27
-            // 
-            this.lbl27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl27.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl27.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl27.Location = new System.Drawing.Point(135, 225);
-            this.lbl27.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl27.Name = "lbl27";
-            this.lbl27.Size = new System.Drawing.Size(66, 55);
-            this.lbl27.TabIndex = 53;
-            this.lbl27.Text = "c";
-            this.lbl27.Click += new System.EventHandler(this.lbl27_Click);
-            // 
-            // lbl26
-            // 
-            this.lbl26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl26.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl26.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl26.Location = new System.Drawing.Point(68, 225);
-            this.lbl26.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl26.Name = "lbl26";
-            this.lbl26.Size = new System.Drawing.Size(66, 55);
-            this.lbl26.TabIndex = 52;
-            this.lbl26.Text = "c";
-            this.lbl26.Click += new System.EventHandler(this.lbl26_Click);
-            // 
-            // lbl25
-            // 
-            this.lbl25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl25.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl25.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl25.Location = new System.Drawing.Point(1, 225);
-            this.lbl25.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl25.Name = "lbl25";
-            this.lbl25.Size = new System.Drawing.Size(66, 55);
-            this.lbl25.TabIndex = 51;
-            this.lbl25.Text = "c";
-            this.lbl25.Click += new System.EventHandler(this.lbl25_Click);
-            // 
-            // lbl24
-            // 
-            this.lbl24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl24.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl24.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl24.Location = new System.Drawing.Point(336, 169);
-            this.lbl24.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl24.Name = "lbl24";
-            this.lbl24.Size = new System.Drawing.Size(71, 55);
-            this.lbl24.TabIndex = 50;
-            this.lbl24.Text = "c";
-            this.lbl24.Click += new System.EventHandler(this.lbl24_Click);
-            // 
-            // lbl23
-            // 
-            this.lbl23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl23.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl23.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl23.Location = new System.Drawing.Point(269, 169);
-            this.lbl23.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl23.Name = "lbl23";
-            this.lbl23.Size = new System.Drawing.Size(66, 55);
-            this.lbl23.TabIndex = 49;
-            this.lbl23.Text = "c";
-            this.lbl23.Click += new System.EventHandler(this.lbl23_Click);
-            // 
-            // lbl18
-            // 
-            this.lbl18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl18.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl18.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl18.Location = new System.Drawing.Point(336, 113);
-            this.lbl18.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl18.Name = "lbl18";
-            this.lbl18.Size = new System.Drawing.Size(71, 55);
-            this.lbl18.TabIndex = 48;
-            this.lbl18.Text = "c";
-            this.lbl18.Click += new System.EventHandler(this.lbl18_Click);
-            // 
-            // lbl17
-            // 
-            this.lbl17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl17.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl17.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl17.Location = new System.Drawing.Point(269, 113);
-            this.lbl17.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl17.Name = "lbl17";
-            this.lbl17.Size = new System.Drawing.Size(66, 55);
-            this.lbl17.TabIndex = 47;
-            this.lbl17.Text = "c";
-            this.lbl17.Click += new System.EventHandler(this.lbl17_Click);
-            // 
-            // lbl12
-            // 
-            this.lbl12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl12.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl12.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl12.Location = new System.Drawing.Point(336, 57);
-            this.lbl12.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl12.Name = "lbl12";
-            this.lbl12.Size = new System.Drawing.Size(71, 55);
-            this.lbl12.TabIndex = 46;
-            this.lbl12.Text = "c";
-            this.lbl12.Click += new System.EventHandler(this.lbl12_Click);
-            // 
-            // lbl11
-            // 
-            this.lbl11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl11.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl11.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl11.Location = new System.Drawing.Point(269, 57);
-            this.lbl11.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl11.Name = "lbl11";
-            this.lbl11.Size = new System.Drawing.Size(66, 55);
-            this.lbl11.TabIndex = 45;
-            this.lbl11.Text = "c";
-            this.lbl11.Click += new System.EventHandler(this.lbl11_Click);
-            // 
-            // lbl6
-            // 
-            this.lbl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl6.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl6.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl6.Location = new System.Drawing.Point(336, 1);
-            this.lbl6.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(71, 55);
-            this.lbl6.TabIndex = 44;
-            this.lbl6.Text = "c";
-            this.lbl6.Click += new System.EventHandler(this.lbl6_Click);
-            // 
-            // lbl5
-            // 
-            this.lbl5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl5.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl5.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl5.Location = new System.Drawing.Point(269, 1);
-            this.lbl5.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(66, 55);
-            this.lbl5.TabIndex = 43;
-            this.lbl5.Text = "c";
-            this.lbl5.Click += new System.EventHandler(this.lbl5_Click);
-            // 
-            // lbl22
-            // 
-            this.lbl22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl22.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl22.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl22.Location = new System.Drawing.Point(202, 169);
-            this.lbl22.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl22.Name = "lbl22";
-            this.lbl22.Size = new System.Drawing.Size(66, 55);
-            this.lbl22.TabIndex = 15;
-            this.lbl22.Text = "c";
-            this.lbl22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl22.Click += new System.EventHandler(this.lbl22_Click);
-            // 
-            // lbl21
-            // 
-            this.lbl21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl21.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl21.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl21.Location = new System.Drawing.Point(135, 169);
-            this.lbl21.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl21.Name = "lbl21";
-            this.lbl21.Size = new System.Drawing.Size(66, 55);
-            this.lbl21.TabIndex = 14;
-            this.lbl21.Text = "c";
-            this.lbl21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl21.Click += new System.EventHandler(this.lbl21_Click);
-            // 
-            // lbl20
-            // 
-            this.lbl20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl20.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl20.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl20.Location = new System.Drawing.Point(68, 169);
-            this.lbl20.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl20.Name = "lbl20";
-            this.lbl20.Size = new System.Drawing.Size(66, 55);
-            this.lbl20.TabIndex = 13;
-            this.lbl20.Text = "c";
-            this.lbl20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl20.Click += new System.EventHandler(this.lbl20_Click);
-            // 
-            // lbl19
-            // 
-            this.lbl19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl19.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl19.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl19.Location = new System.Drawing.Point(1, 169);
-            this.lbl19.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl19.Name = "lbl19";
-            this.lbl19.Size = new System.Drawing.Size(66, 55);
-            this.lbl19.TabIndex = 12;
-            this.lbl19.Text = "c";
-            this.lbl19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl19.Click += new System.EventHandler(this.lbl19_Click);
-            // 
-            // lbl16
-            // 
-            this.lbl16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl16.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl16.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl16.Location = new System.Drawing.Point(202, 113);
-            this.lbl16.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl16.Name = "lbl16";
-            this.lbl16.Size = new System.Drawing.Size(66, 55);
-            this.lbl16.TabIndex = 11;
-            this.lbl16.Text = "c";
-            this.lbl16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl16.Click += new System.EventHandler(this.lbl16_Click);
-            // 
-            // lbl15
-            // 
-            this.lbl15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl15.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl15.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl15.Location = new System.Drawing.Point(135, 113);
-            this.lbl15.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl15.Name = "lbl15";
-            this.lbl15.Size = new System.Drawing.Size(66, 55);
-            this.lbl15.TabIndex = 10;
-            this.lbl15.Text = "c";
-            this.lbl15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl15.Click += new System.EventHandler(this.lbl15_Click);
-            // 
-            // lbl14
-            // 
-            this.lbl14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl14.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl14.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl14.Location = new System.Drawing.Point(68, 113);
-            this.lbl14.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl14.Name = "lbl14";
-            this.lbl14.Size = new System.Drawing.Size(66, 55);
-            this.lbl14.TabIndex = 9;
-            this.lbl14.Text = "c";
-            this.lbl14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl14.Click += new System.EventHandler(this.lbl14_Click);
-            // 
-            // lbl13
-            // 
-            this.lbl13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl13.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl13.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl13.Location = new System.Drawing.Point(1, 113);
-            this.lbl13.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl13.Name = "lbl13";
-            this.lbl13.Size = new System.Drawing.Size(66, 55);
-            this.lbl13.TabIndex = 8;
-            this.lbl13.Text = "c";
-            this.lbl13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl13.Click += new System.EventHandler(this.lbl13_Click);
-            // 
-            // lbl10
-            // 
-            this.lbl10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl10.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl10.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl10.Location = new System.Drawing.Point(202, 57);
-            this.lbl10.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl10.Name = "lbl10";
-            this.lbl10.Size = new System.Drawing.Size(66, 55);
-            this.lbl10.TabIndex = 7;
-            this.lbl10.Text = "c";
-            this.lbl10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl10.Click += new System.EventHandler(this.lbl10_Click);
-            // 
-            // lbl9
-            // 
-            this.lbl9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl9.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl9.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl9.Location = new System.Drawing.Point(135, 57);
-            this.lbl9.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl9.Name = "lbl9";
-            this.lbl9.Size = new System.Drawing.Size(66, 55);
-            this.lbl9.TabIndex = 6;
-            this.lbl9.Text = "c";
-            this.lbl9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl9.Click += new System.EventHandler(this.lbl9_Click);
-            // 
-            // lbl8
-            // 
-            this.lbl8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl8.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl8.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl8.Location = new System.Drawing.Point(68, 57);
-            this.lbl8.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl8.Name = "lbl8";
-            this.lbl8.Size = new System.Drawing.Size(66, 55);
-            this.lbl8.TabIndex = 5;
-            this.lbl8.Text = "c";
-            this.lbl8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl8.Click += new System.EventHandler(this.lbl8_Click);
-            // 
-            // lbl7
-            // 
-            this.lbl7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl7.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl7.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl7.Location = new System.Drawing.Point(1, 57);
-            this.lbl7.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl7.Name = "lbl7";
-            this.lbl7.Size = new System.Drawing.Size(66, 55);
-            this.lbl7.TabIndex = 4;
-            this.lbl7.Text = "c";
-            this.lbl7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl7.Click += new System.EventHandler(this.lbl7_Click);
-            // 
-            // lbl3
-            // 
-            this.lbl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl3.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl3.Location = new System.Drawing.Point(135, 1);
-            this.lbl3.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(66, 55);
-            this.lbl3.TabIndex = 2;
-            this.lbl3.Text = "c";
-            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl3.Click += new System.EventHandler(this.lbl3_Click);
-            // 
-            // lbl2
-            // 
-            this.lbl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl2.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl2.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl2.Location = new System.Drawing.Point(68, 1);
-            this.lbl2.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(66, 55);
-            this.lbl2.TabIndex = 1;
-            this.lbl2.Text = "c";
-            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl2.Click += new System.EventHandler(this.lbl2_Click);
-            // 
-            // lbl1
-            // 
-            this.lbl1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl1.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl1.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl1.Location = new System.Drawing.Point(1, 1);
-            this.lbl1.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(66, 55);
-            this.lbl1.TabIndex = 0;
-            this.lbl1.Text = "c";
-            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
-            // 
-            // lbl4
-            // 
-            this.lbl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl4.Font = new System.Drawing.Font("Wingdings 2", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.lbl4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lbl4.Location = new System.Drawing.Point(202, 1);
-            this.lbl4.Margin = new System.Windows.Forms.Padding(0);
-            this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(66, 55);
-            this.lbl4.TabIndex = 16;
-            this.lbl4.Text = "c";
-            this.lbl4.Click += new System.EventHandler(this.lbl4_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(12, 27);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(408, 343);
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 338);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(684, 22);
-            this.statusStrip1.TabIndex = 15;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(115, 17);
-            this.toolStripStatusLabel1.Text = "Неуспешни обиди :";
-            this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
-            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
@@ -1128,10 +1128,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.tbp2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.tbp2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1175,46 +1175,46 @@
         private System.Windows.Forms.ToolStripMenuItem highScoreToolStripMenuItem;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TableLayoutPanel tbp2;
-        private System.Windows.Forms.Label lbl36;
-        private System.Windows.Forms.Label lbl35;
-        private System.Windows.Forms.Label lbl34;
-        private System.Windows.Forms.Label lbl33;
-        private System.Windows.Forms.Label lbl32;
-        private System.Windows.Forms.Label lbl31;
-        private System.Windows.Forms.Label lbl30;
-        private System.Windows.Forms.Label lbl29;
-        private System.Windows.Forms.Label lbl28;
-        private System.Windows.Forms.Label lbl27;
-        private System.Windows.Forms.Label lbl26;
-        private System.Windows.Forms.Label lbl25;
-        private System.Windows.Forms.Label lbl24;
-        private System.Windows.Forms.Label lbl23;
-        private System.Windows.Forms.Label lbl18;
-        private System.Windows.Forms.Label lbl17;
-        private System.Windows.Forms.Label lbl12;
-        private System.Windows.Forms.Label lbl11;
-        private System.Windows.Forms.Label lbl6;
-        private System.Windows.Forms.Label lbl5;
-        private System.Windows.Forms.Label lbl22;
-        private System.Windows.Forms.Label lbl21;
-        private System.Windows.Forms.Label lbl20;
-        private System.Windows.Forms.Label lbl19;
-        private System.Windows.Forms.Label lbl16;
-        private System.Windows.Forms.Label lbl15;
-        private System.Windows.Forms.Label lbl14;
-        private System.Windows.Forms.Label lbl13;
-        private System.Windows.Forms.Label lbl10;
-        private System.Windows.Forms.Label lbl9;
-        private System.Windows.Forms.Label lbl8;
-        private System.Windows.Forms.Label lbl7;
-        private System.Windows.Forms.Label lbl3;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lbl7;
+        private System.Windows.Forms.Label lbl8;
+        private System.Windows.Forms.Label lbl9;
+        private System.Windows.Forms.Label lbl10;
+        private System.Windows.Forms.Label lbl13;
+        private System.Windows.Forms.Label lbl14;
+        private System.Windows.Forms.Label lbl15;
+        private System.Windows.Forms.Label lbl16;
+        private System.Windows.Forms.Label lbl19;
+        private System.Windows.Forms.Label lbl20;
+        private System.Windows.Forms.Label lbl21;
+        private System.Windows.Forms.Label lbl22;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.Label lbl11;
+        private System.Windows.Forms.Label lbl12;
+        private System.Windows.Forms.Label lbl17;
+        private System.Windows.Forms.Label lbl18;
+        private System.Windows.Forms.Label lbl23;
+        private System.Windows.Forms.Label lbl24;
+        private System.Windows.Forms.Label lbl25;
+        private System.Windows.Forms.Label lbl26;
+        private System.Windows.Forms.Label lbl27;
+        private System.Windows.Forms.Label lbl28;
+        private System.Windows.Forms.Label lbl29;
+        private System.Windows.Forms.Label lbl30;
+        private System.Windows.Forms.Label lbl31;
+        private System.Windows.Forms.Label lbl32;
+        private System.Windows.Forms.Label lbl33;
+        private System.Windows.Forms.Label lbl34;
+        private System.Windows.Forms.Label lbl35;
+        private System.Windows.Forms.Label lbl36;
+        private System.Windows.Forms.TableLayoutPanel tbp2;
     }
 }
 
