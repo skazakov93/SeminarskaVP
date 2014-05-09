@@ -188,8 +188,9 @@ namespace SeminarskaVP
                         //pom.Visible = true;
                         pom.BackColor = Color.CornflowerBlue;
                         pom.ForeColor = Color.CornflowerBlue;
-                        
+                        //pom.Enabled = true;   
                     }
+                    pom.Enabled = true;
                 }
                 prvKlik = null;
                 vtorKlik = null;
@@ -301,7 +302,9 @@ namespace SeminarskaVP
                         //pom.Visible = true;
                         pom.BackColor = Color.CornflowerBlue;
                         pom.ForeColor = Color.CornflowerBlue;
+                        //pom.Enabled = true;
                     }
+                    pom.Enabled = true;
                 }
 
                 prvKlik = null;
@@ -508,6 +511,8 @@ namespace SeminarskaVP
             vtorKlik.Text = "";
             prvKlik.BackColor = Color.Transparent;
             vtorKlik.BackColor = Color.Transparent;
+            prvKlik.Enabled = false;
+            vtorKlik.Enabled = false;
             prvKlik = null;
             vtorKlik = null;
             if (dali)
@@ -608,6 +613,8 @@ namespace SeminarskaVP
                         pom2.Text = "";
                         pom1.BackColor = Color.Transparent;
                         pom2.BackColor = Color.Transparent;
+                        pom1.Enabled = false;
+                        pom2.Enabled = false;
                         tbp2.ResumeLayout();
                     }
                     else
@@ -622,6 +629,7 @@ namespace SeminarskaVP
                             {
                                 i.Text = "";
                                 i.BackColor = Color.Transparent;
+                                i.Enabled = false;
                             }
                         }
                         tablePanel.ResumeLayout();

@@ -94,9 +94,11 @@ namespace SeminarskaVP
             {
                 odgovoriPrezime.Add(prezimina[i].ToLower());
             }
-
             int vrati = -1;
-
+            if (((!odgovoriPrezime.Contains(Prezime.ToLower()) && !odgovoriPrezime.Contains(novoPrezime)) || Prezime == "") && ((!odgovoriIme.Contains(Ime.ToLower()) && !odgovoriIme.Contains(novoIme)) || Ime == ""))
+            {
+                return -1;
+            }
             if (odgovoriPrezime.Contains(Prezime.ToLower()) && odgovoriIme.Contains(Ime.ToLower()) ||
                 (odgovoriPrezime.Contains(novoPrezime) && odgovoriIme.Contains(novoIme)))
             {
