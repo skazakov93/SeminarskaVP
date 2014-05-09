@@ -185,7 +185,7 @@ namespace SeminarskaVP
                     Label pom = c as Label;
                     if (pom != null)
                     {
-                        pom.Visible = true;
+                        //pom.Visible = true;
                         pom.BackColor = Color.CornflowerBlue;
                         pom.ForeColor = Color.CornflowerBlue;
                         
@@ -298,7 +298,7 @@ namespace SeminarskaVP
                     Label pom = c as Label;
                     if (pom != null)
                     {
-                        pom.Visible = true;
+                        //pom.Visible = true;
                         pom.BackColor = Color.CornflowerBlue;
                         pom.ForeColor = Color.CornflowerBlue;
                     }
@@ -502,8 +502,12 @@ namespace SeminarskaVP
                 tablePanel.SuspendLayout();
             Klikaj = true;
             timer3.Stop();
-            prvKlik.Visible = false;
-            vtorKlik.Visible = false;
+            //prvKlik.Visible = false;
+            //vtorKlik.Visible = false;
+            prvKlik.Text = "";
+            vtorKlik.Text = "";
+            prvKlik.BackColor = Color.Transparent;
+            vtorKlik.BackColor = Color.Transparent;
             prvKlik = null;
             vtorKlik = null;
             if (dali)

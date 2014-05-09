@@ -92,7 +92,7 @@ namespace SeminarskaVP
 
             for (int i = 0; i < prezimina.Count; i++)
             {
-                odgovoriPrezime.Add(prezimina[i]);
+                odgovoriPrezime.Add(prezimina[i].ToLower());
             }
 
             int vrati = -1;
