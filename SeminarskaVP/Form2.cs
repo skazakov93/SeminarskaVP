@@ -32,7 +32,16 @@ namespace SeminarskaVP
             matricaOdbrana = mat;
             if (matricaOdbrana != MATRICA6X6)
             {
-                System.IO.StreamReader file = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\rezultati.txt");
+                string path = Application.StartupPath.ToString();
+                string[] parts1 = path.Split('\\');
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamReader file = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\rezultati.txt");
                 string line = file.ReadLine();
                 siteIgraci = new List<Igrac>();
                 while (line != null)
@@ -67,7 +76,16 @@ namespace SeminarskaVP
 
             if (matricaOdbrana == MATRICA6X6)
             {
-                System.IO.StreamReader file = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\rezultati6.txt");
+                string path = Application.StartupPath.ToString();
+                string[] parts1 = path.Split('\\');
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamReader file = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\rezultati6.txt");
                 string line = file.ReadLine();
                 siteIgraci = new List<Igrac>();
                 while (line != null)
@@ -114,11 +132,20 @@ namespace SeminarskaVP
 
             if (matricaOdbrana != MATRICA6X6)
             {
-                System.IO.StreamWriter file = new System.IO.StreamWriter(Application.StartupPath.ToString() + @"\MemoryData\rezultati.txt");
+                string path = Application.StartupPath.ToString();
+                string[] parts1 = path.Split('\\');
+                StringBuilder sb = new StringBuilder();
+                for (int j = 0; j < parts1.Length - 2; j++)
+                {
+                    sb.Append(parts1[j]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamWriter file = new System.IO.StreamWriter(sb.ToString() + @"\Properties\MemoryData\rezultati.txt");
                 for (int j = 0; j < siteIgraci.Count; j++)
                 {
                     Igrac igrac = (Igrac)siteIgraci[j];
-                    StringBuilder sb = new StringBuilder();
+                    sb = new StringBuilder();
                     sb.Append(igrac.ImeIgrac);
                     sb.Append(" ");
                     sb.Append(igrac.Vreme);
@@ -129,11 +156,20 @@ namespace SeminarskaVP
 
             if (matricaOdbrana == MATRICA6X6)
             {
-                System.IO.StreamWriter file = new System.IO.StreamWriter(Application.StartupPath.ToString() + @"\MemoryData\rezultati6.txt");
+                string path = Application.StartupPath.ToString();
+                string[] parts1 = path.Split('\\');
+                StringBuilder sb = new StringBuilder();
+                for (int j = 0; j < parts1.Length - 2; j++)
+                {
+                    sb.Append(parts1[j]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamWriter file = new System.IO.StreamWriter(sb.ToString() + @"\Properties\MemoryData\rezultati6.txt");
                 for (int j = 0; j < siteIgraci.Count; j++)
                 {
                     Igrac igrac = (Igrac)siteIgraci[j];
-                    StringBuilder sb = new StringBuilder();
+                    sb = new StringBuilder();
                     sb.Append(igrac.ImeIgrac);
                     sb.Append(" ");
                     sb.Append(igrac.Vreme);

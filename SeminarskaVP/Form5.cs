@@ -19,7 +19,16 @@ namespace SeminarskaVP
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            System.IO.StreamReader file = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\rezultati.txt");
+            string path = Application.StartupPath.ToString();
+            string[] parts1 = path.Split('\\');
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < parts1.Length - 2; i++)
+            {
+                sb.Append(parts1[i]);
+                sb.Append("\\");
+            }
+
+            System.IO.StreamReader file = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\rezultati.txt");
             string line = file.ReadLine();
             siteIgraci = new List<Igrac>();
             while (line != null)
@@ -50,7 +59,16 @@ namespace SeminarskaVP
             }
             file.Close();
 
-            file = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\rezultati6.txt");
+            path = Application.StartupPath.ToString();
+            parts1 = path.Split('\\');
+            sb = new StringBuilder();
+            for (int i = 0; i < parts1.Length - 2; i++)
+            {
+                sb.Append(parts1[i]);
+                sb.Append("\\");
+            }
+
+            file = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\rezultati6.txt");
             line = file.ReadLine();
             siteIgraci = new List<Igrac>();
             while (line != null)
@@ -84,7 +102,16 @@ namespace SeminarskaVP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String path = Application.StartupPath.ToString() + @"\MemoryData\rezultati.txt";
+            string path1 = Application.StartupPath.ToString();
+            string[] parts1 = path1.Split('\\');
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < parts1.Length - 2; i++)
+            {
+                sb.Append(parts1[i]);
+                sb.Append("\\");
+            }
+
+            String path = sb.ToString() + @"\Properties\MemoryData\rezultati.txt";
             using (var stream = new FileStream(path, FileMode.Truncate))
             {
                 using (var writer = new StreamWriter(stream))
@@ -97,7 +124,16 @@ namespace SeminarskaVP
 
         private void button2_Click(object sender, EventArgs e)
         {
-            String path = Application.StartupPath.ToString() + @"\MemoryData\rezultati6.txt";
+            string path1 = Application.StartupPath.ToString();
+            string[] parts1 = path1.Split('\\');
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < parts1.Length - 2; i++)
+            {
+                sb.Append(parts1[i]);
+                sb.Append("\\");
+            }
+
+            String path = sb.ToString() + @"\Properties\MemoryData\rezultati6.txt";
             using (var stream = new FileStream(path, FileMode.Truncate))
             {
                 using (var writer = new StreamWriter(stream))

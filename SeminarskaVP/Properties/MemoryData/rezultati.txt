@@ -7,3 +7,4 @@ kjh 00:30
 asc 00:31
 sedum 00:38
 devet 00:41
+deset 00:27

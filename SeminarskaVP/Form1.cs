@@ -149,7 +149,16 @@ namespace SeminarskaVP
 
                 file.Close();
 
-                System.IO.StreamReader file2 = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\odgovoriP.txt");
+                path = Application.StartupPath.ToString();
+                parts1 = path.Split('\\');
+                sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamReader file2 = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\odgovoriP.txt");
 
                 for (int i = 0; i < BROJ_NA_SLIKI; i++)
                 {
@@ -171,8 +180,18 @@ namespace SeminarskaVP
                 tbp2.SuspendLayout();
 
                 string pateka = "";
-                pateka = @"\MemoryData\" + slikaBr + ".jpg";
-                Image image = Image.FromFile(Application.StartupPath.ToString() + pateka);
+                pateka = @"Properties\MemoryData\" + slikaBr + ".jpg";
+
+                path = Application.StartupPath.ToString();
+                parts1 = path.Split('\\');
+                sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
+
+                Image image = Image.FromFile(sb.ToString() + pateka);
 
                 pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox2.Image = image;
@@ -250,7 +269,16 @@ namespace SeminarskaVP
                     "!", "N", ",", "k", "b", "v", "w", "z"
                 };
 
-                System.IO.StreamReader file = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\odgovori.txt");
+                string path2 = Application.StartupPath.ToString();
+                string[] parts1 = path2.Split('\\');
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamReader file = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\odgovori.txt");
 
                 for (int i = 0; i < BROJ_NA_SLIKI; i++)
                 {
@@ -269,7 +297,16 @@ namespace SeminarskaVP
 
                 file.Close();
 
-                System.IO.StreamReader file2 = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\odgovoriP.txt");
+                string path = Application.StartupPath.ToString();
+                string[] parts2 = path.Split('\\');
+                sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts2[i]);
+                    sb.Append("\\");
+                }
+
+                System.IO.StreamReader file2 = new System.IO.StreamReader(sb.ToString() + @"\Properties\MemoryData\odgovoriP.txt");
 
                 for (int i = 0; i < BROJ_NA_SLIKI; i++)
                 {
@@ -289,8 +326,18 @@ namespace SeminarskaVP
 
                 tablePanel.SuspendLayout();
                 string pateka = "";
-                pateka = @"\MemoryData\" + slikaBr + ".jpg";
-                Image image = Image.FromFile(Application.StartupPath.ToString() + pateka);
+                pateka = @"Properties\MemoryData\" + slikaBr + ".jpg";
+
+                path = Application.StartupPath.ToString();
+                parts1 = path.Split('\\');
+                sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
+
+                Image image = Image.FromFile(sb.ToString() + pateka);
                 pictureBox1.Image = image;
 
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
