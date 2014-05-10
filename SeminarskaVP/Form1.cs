@@ -39,24 +39,15 @@ namespace SeminarskaVP
         {
             InitializeComponent();
             nivoTezina = true;
-            //tbp2.Visible = true;
-            //pictureBox2.Visible = true;
-            //tablePanel.Visible = false;
-            //pictureBox1.Visible = false;
             ran = new Random();
             NewGame();
             this.DoubleBuffered = true;
         }
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
 
-        }
         private void tablePanel_MouseClick(object sender, MouseEventArgs e)
         {
             //tablePanel.Visible = false;
         }
-       
-        
 
         private bool Pogodi(int vreme, string ime, string prezime)
         {
@@ -146,7 +137,6 @@ namespace SeminarskaVP
                     }
                     game.DodadiIme(i + 1, niza);
                 }
-
                 file.Close();
 
                 path = Application.StartupPath.ToString();
@@ -176,7 +166,6 @@ namespace SeminarskaVP
                 }
                 file2.Close();
 
-                
                 tbp2.SuspendLayout();
 
                 string pateka = "";
@@ -294,7 +283,6 @@ namespace SeminarskaVP
                     }
                     game.DodadiIme(i + 1, niza);
                 }
-
                 file.Close();
 
                 string path = Application.StartupPath.ToString();
@@ -398,7 +386,6 @@ namespace SeminarskaVP
 
         private void Klik(object sender, EventArgs e)
         {
-            //this.SuspendLayout();
             if (dali) {
                 tbp2.SuspendLayout();
             }
@@ -442,8 +429,6 @@ namespace SeminarskaVP
             else
                 tablePanel.ResumeLayout();
         }
-        
-        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -473,11 +458,8 @@ namespace SeminarskaVP
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            //timer2.Start();
-            //timer2.Stop();
             Vreme = Vreme - timer2.Interval / 1000;
             vremePogodok++;
-            //label18.Text = Vreme + "";
             if (Pogodi(Vreme, textBox1.Text, textBox2.Text))
             {
                 min = Vreme / 60;
@@ -535,7 +517,6 @@ namespace SeminarskaVP
                 textBox1.Text = "";
                 textBox1.Select();
             }
-            //label18.Text = game.DaliETocno(pom);
             if (dali)
             {
                 tbp2.ResumeLayout();
@@ -559,8 +540,6 @@ namespace SeminarskaVP
                 tablePanel.SuspendLayout();
             Klikaj = true;
             timer3.Stop();
-            //prvKlik.Visible = false;
-            //vtorKlik.Visible = false;
             prvKlik.Text = "";
             vtorKlik.Text = "";
             prvKlik.BackColor = Color.Transparent;
@@ -585,24 +564,13 @@ namespace SeminarskaVP
 
         private void x6ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            /*Form4 form = new Form4();
-            this.Visible = false;
-            timer2.Stop();
-            timer3.Stop();
-            timer1.Stop();
-            nivoTezina = false;
-            form.ShowDialog();
-            this.Close();*/
             dali = true;
-            //tbp2.CellBorderStyle = TableLayoutPanelCellBorderStyle.None;
             NewGame();
-
         }
 
         private void x4ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             dali = false;
-            //tablePanel.CellBorderStyle = TableLayoutPanelCellBorderStyle.None;
             NewGame();          
         }
 
@@ -621,13 +589,11 @@ namespace SeminarskaVP
             {
                 h = 4;
                 flagH = true;
-                
             }
             else if(!dali && !flagH)
             {
                 h = 2;
                 flagH = true;
-                
             }
             if (h > 0 && lista.Count > 0)
             {   
@@ -671,9 +637,7 @@ namespace SeminarskaVP
                         tablePanel.ResumeLayout();
                     }
                 }
-                //Invalidate(true);
             }
-            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -698,8 +662,6 @@ namespace SeminarskaVP
             {
                 NewGame();
             }
-            
-            
         }
 
        
@@ -965,8 +927,6 @@ namespace SeminarskaVP
 
         private void toolStripStatusLabel1_Click(object sender, EventArgs e)
         {
-
         }
-
     }
 }

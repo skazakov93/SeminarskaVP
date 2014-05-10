@@ -117,7 +117,6 @@ namespace SeminarskaVP
 
                 textBox2.Text = string.Format("{0:00}:{1:00}", min, sec);
             }
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -186,7 +185,6 @@ namespace SeminarskaVP
                 {
                     this.Close();
                 }
-
         }
 
         private void textBox1_Validating(object sender, CancelEventArgs e)
@@ -202,8 +200,6 @@ namespace SeminarskaVP
                 errorProvider1.SetError(textBox1, "");
                 VneseniPodatoci = true;
             }
-
         }
-        
     }
 }

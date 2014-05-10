@@ -15,14 +15,11 @@ namespace SeminarskaVP
         {
             ImeIgrac = i;
             Vreme = v;
-
         }
 
         public override string ToString()
         {
             return string.Format("{0} {1:00}", ImeIgrac, Vreme);
         }
-
-
     }
 }

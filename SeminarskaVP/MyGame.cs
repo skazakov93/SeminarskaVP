@@ -80,8 +80,6 @@ namespace SeminarskaVP
             novoIme = novoIme.Replace("nj", "n");
             novoPrezime = novoPrezime.Trim();
 
-            //str = novoIme + " " + novoPrezime;
-
             HashSet<string> odgovoriIme = new HashSet<string>();
             HashSet<string> odgovoriPrezime = new HashSet<string>();
 
@@ -113,7 +111,6 @@ namespace SeminarskaVP
                 vrati = 2;
             }
             return vrati;
-
         }
     }
 }

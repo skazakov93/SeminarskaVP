@@ -19,7 +19,5 @@ namespace SeminarskaVP
         {
             return Pozicija + ". " + this.ImeIgrac + " " + this.Vreme;
         }
-
-
     }
 }
