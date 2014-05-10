@@ -121,8 +121,16 @@ namespace SeminarskaVP
                     "3", "Z", "5", "^", "7", "P",
                     "T", "H"
                 };
+                string path = Application.StartupPath.ToString();
+                string[] parts1 = path.Split('\\');
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < parts1.Length - 2; i++)
+                {
+                    sb.Append(parts1[i]);
+                    sb.Append("\\");
+                }
 
-                System.IO.StreamReader file = new System.IO.StreamReader(Application.StartupPath.ToString() + @"\MemoryData\odgovori.txt");
+                System.IO.StreamReader file = new System.IO.StreamReader(sb.ToString().ToString() + @"\Properties\MemoryData\odgovori.txt");
                
                 for (int i = 0; i < BROJ_NA_SLIKI; i++)
                 {
