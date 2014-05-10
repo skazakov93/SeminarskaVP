@@ -92,7 +92,7 @@
             this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = " резултат???";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+//            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form3
             // 
@@ -108,7 +108,7 @@
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ПОГОДОК!!!";
-            this.Load += new System.EventHandler(this.Form3_Load);
+//            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

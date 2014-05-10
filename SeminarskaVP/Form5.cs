@@ -14,10 +14,7 @@ namespace SeminarskaVP
     public partial class Form5 : Form
     {
         private List<Igrac> siteIgraci;
-        private void Form5_Load(object sender, EventArgs e)
-        {
 
-        }
         public Form5()
         {
             InitializeComponent();
@@ -109,8 +106,6 @@ namespace SeminarskaVP
                 }
             }
             lb2.Items.Clear();
-        }
-
-        
+        }   
     }
 }

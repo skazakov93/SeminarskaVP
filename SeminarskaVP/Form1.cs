@@ -368,7 +368,7 @@ namespace SeminarskaVP
                 
                 if (prvKlik.Text == vtorKlik.Text)
                 {
-                    //lista.Remove(prvKlik.Text);                   
+                    lista.Remove(prvKlik.Text);                   
                     //Klikaj = false;
                     timer3.Start();
                     return;
@@ -576,8 +576,7 @@ namespace SeminarskaVP
                 
             }
             if (h > 0 && lista.Count > 0)
-            {                          
-                
+            {   
                 h--;
                 Random r = new Random();
                 int index = r.Next(lista.Count);
@@ -585,46 +584,29 @@ namespace SeminarskaVP
                 {
                     string randomString = lista[index];
                     lista.RemoveAt(index);
-                    if (dali)
+                    if (dali && (Vreme - 20) > 0)
                     {
                         Vreme -= 20;
                         pomosCount += 20;
                         tbp2.SuspendLayout();
-                        Label pom1 = null;
-                        Label pom2 = null;
-                        int brojac = 0;
                         foreach (Label i in tbp2.Controls)
                         {
-
-                            if (i.Text == randomString && brojac == 0)
-                            {
-                                pom1 = i;
-                                brojac++;
-                            }
                             if (i.Text == randomString)
                             {
-                                pom2 = i;
+                                i.Text = "";
+                                i.BackColor = Color.Transparent;
+                                i.Enabled = false;
                             }
-                                
                         }
-                        //pom1.Visible = false;
-                        //pom2.Visible = false;
-                        pom1.Text = "";
-                        pom2.Text = "";
-                        pom1.BackColor = Color.Transparent;
-                        pom2.BackColor = Color.Transparent;
-                        pom1.Enabled = false;
-                        pom2.Enabled = false;
                         tbp2.ResumeLayout();
                     }
-                    else
+                    if (!dali && (Vreme - 10) > 0)
                     {
                         Vreme -= 10;
                         pomosCount += 10;
                         tablePanel.SuspendLayout();
                         foreach (Label i in tablePanel.Controls)
                         {
-
                             if (i.Text == randomString)
                             {
                                 i.Text = "";

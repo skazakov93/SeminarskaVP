@@ -19,10 +19,7 @@ namespace SeminarskaVP
         private List<Igrac> siteIgraci;
         public static int MATRICA6X6 = 3;
         public int matricaOdbrana { get; set; }
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
-        }
         public Form2(int pom, bool newGame, bool closeA, int mat)
         {
             InitializeComponent();
@@ -104,8 +101,6 @@ namespace SeminarskaVP
             }
 
         }
-
-       
 
         private void button1_Click(object sender, EventArgs e)
         {

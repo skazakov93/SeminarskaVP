@@ -17,10 +17,7 @@ namespace SeminarskaVP
         public int VremePogodok { get; set; }
         public static int MATRICA6X6 = 3;
         public int kojaMatrica { get; set; }
-        private void Form3_Load(object sender, EventArgs e)
-        {
 
-        }
         public Form3(int vreme, int sirina, int visina, int mat)
         {
             InitializeComponent();
@@ -36,16 +33,8 @@ namespace SeminarskaVP
             kojaMatrica = mat;
         }
 
-        
-
         private void button1_Click(object sender, EventArgs e)
         {
-            /*if (checkBox1.Checked)
-            {
-                NovaIgra = true;
-                CloseApp = false;
-            }*/
-
             Form2 f2 = new Form2(VremePogodok, NovaIgra, CloseApp, kojaMatrica);
             f2.ShowDialog();
             this.Close();
@@ -53,38 +42,9 @@ namespace SeminarskaVP
 
         private void button2_Click(object sender, EventArgs e)
         {
-            /*if (checkBox1.Checked == false)
-            {
-                CloseApp = true;
-                this.Close();
-            }
-            if (checkBox1.Checked)
-            {
-                NovaIgra = true;
-                CloseApp = false;
-                this.Close();
-            }*/
             NovaIgra = true;
             CloseApp = false;
             this.Close();
-        }
-
-        /*private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked)
-            {
-                NovaIgra = true;
-            }
-            else
-            {
-                NovaIgra = false;
-            }
-        }*/
-        
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
    
