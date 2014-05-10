@@ -424,7 +424,7 @@ namespace SeminarskaVP
                 if (prvKlik.Text == vtorKlik.Text)
                 {
                     lista.Remove(prvKlik.Text);                   
-                    //Klikaj = false;
+                    Klikaj = false;
                     timer3.Start();
                     return;
                 }
