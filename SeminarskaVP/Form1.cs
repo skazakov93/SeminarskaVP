@@ -85,7 +85,7 @@ namespace SeminarskaVP
             //dali = false;
             int slikaBr = ran.Next(BROJ_NA_SLIKI) + 1;
             game = new MyGame(slikaBr);
-
+            textBox1.Select();
             if (dali)
             {
                 if (!golemina)
@@ -364,8 +364,7 @@ namespace SeminarskaVP
 
                 prvKlik = null;
                 vtorKlik = null;
-                textBox1.Select();
-
+                
                 foreach (Control c in tablePanel.Controls)
                 {
                     Label pom = c as Label;
