@@ -61,7 +61,6 @@ namespace SeminarskaVP
             string novoIme = Ime.ToLower();
             novoPrezime = novoPrezime.Replace("sh", "s");
             novoPrezime = novoPrezime.Replace("ch", "c");
-            novoPrezime = novoPrezime.Replace("sh", "s");
             novoPrezime = novoPrezime.Replace("kj", "k");
             novoPrezime = novoPrezime.Replace("gj", "g");
             novoPrezime = novoPrezime.Replace("dj", "d");
@@ -71,7 +70,6 @@ namespace SeminarskaVP
 
             novoIme = novoIme.Replace("sh", "s");
             novoIme = novoIme.Replace("ch", "c");
-            novoIme = novoIme.Replace("sh", "s");
             novoIme = novoIme.Replace("kj", "k");
             novoIme = novoIme.Replace("gj", "g");
             novoIme = novoIme.Replace("dj", "d");
