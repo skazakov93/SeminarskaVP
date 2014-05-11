@@ -8,7 +8,7 @@ Memory Game
 
 Опис на апликацијата:
 	Апликација претставува класична мемориска игра која во позадината содржи слика која играчот треба да ја погоди во што е можно пократко време.
-	<a href="https://github.com/skazakov93/SeminarskaVP/blob/master/SeminarskaVP/Properties/Memory%20Game.rar">Симни ја извршната верзија</a>
+	<a href="https://github.com/skazakov93/SeminarskaVP/blob/master/SeminarskaVP/Properties/Memory%20Game.rar?raw=true">Симни ја извршната верзија</a>
 
 <a href="http://imgur.com/Dt4HRZ9"><img src="http://i.imgur.com/Dt4HRZ9.jpg" title="Hosted by imgur.com" /></a>
 
